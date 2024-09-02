@@ -59,6 +59,12 @@ img{
   margin-right: auto;
   padding-top: 8px;
   padding-bottom: 24px;
+  transition-duration: 1s;
+}
+
+img:hover{
+  transform: rotate(180deg);
+  transition-duration: 1s;
 }
 /*
 .img{
