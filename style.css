@@ -3,9 +3,7 @@ body{
   height: 100vh;
 }
 
-main{
-  
-}
+
 
 div{
   border: 1px solid red;
@@ -13,14 +11,30 @@ div{
 
 .btn-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-row: 1fr 1fr 1fr 1fr;
 }
 
 .btn{
-  grid-colum-start: 2;
-  grid-colum-end: 4;
+  justify-self: center;
+  align-self: center;
+  width: 65%;
+  margin: 12px;
 }
+
+#btn-1{
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#btn-2{
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+#btn-3{
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
 
 img{
   height: 60px;
@@ -36,4 +50,10 @@ img{
 
 h1{
   justify-self: center;
+  align-self: center;
+}
+
+h3{
+  justify-self: center;
+  align-self: center;
 }
