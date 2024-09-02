@@ -3,7 +3,7 @@ body{
   height: 100vh;
   font-family: sans-serif;
   color: white;
-  justfy: center;
+  padding: 50px;
   
 }
 
@@ -22,7 +22,13 @@ div{
   align-self: center;
   width: 65%;
   margin: 12px;
-  background
+  background-color: black;
+}
+
+.btn:hover{
+  border: 1px solid red;
+  background-image: linear-gradient(black, darkRed);
+  
 }
 
 #btn-1{
@@ -57,7 +63,8 @@ img{
   align-self: center;
   background-color: black;
   margin-left: auto;
-   margin-right: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 h1{
