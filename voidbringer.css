@@ -4,14 +4,21 @@ html{
   font-family: Garamond, serif;
   letter-spacing: 3px;
   text-align: center;
-  background-image: url('https://cdn.glitch.global/af5ef899-75df-45df-8858-9e27757b286d/GraphicUnderlayVB.svg?v=1725283321217');
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  background-opacity: 0.3;
 }
 
-img{
+.logo{
   height: 450px;
   width: 450px;
+  margin-top: 50%;
+}
+
+.bg {
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+  padding-bottom:250px;
 }
