@@ -129,10 +129,14 @@ h1 {
 }
 .container {
   display: grid;
+  grid-template-rows: 1fr 250px 1fr;
+  margin: 0 auto;
+  margin-top: 50px;
   
 }
 .names {
-  
+  justify-self: center;
+  align-self: center;
   
 }
 
