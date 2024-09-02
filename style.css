@@ -31,6 +31,8 @@ div{
   
 }
 
+
+
 #btn-1{
   grid-row-start: 1;
   grid-row-end: 1;
@@ -83,6 +85,10 @@ h3{
 a{
   text-decoration: none;
   color: white;
+}
+
+a:hover{
+  color: red;
 }
 
 footer{
