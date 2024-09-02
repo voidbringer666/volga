@@ -4,11 +4,22 @@ body{
 }
 
 main{
-  display
+  
 }
 
 div{
   border: 1px solid red;
+}
+
+.btn-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-row: 1fr 1fr 1fr 1fr;
+}
+
+.btn{
+  grid-colum-start: 2;
+  grid-colum-end: 4;
 }
 
 img{
@@ -20,4 +31,9 @@ img{
   height: 60px;
   width: 60px;
   border-radius: 30px;
+  justify-self: center;
+}
+
+h1{
+  justify-self: center;
 }
