@@ -1,4 +1,17 @@
 html{
-  background-color: black;
-  color;
+  background-color: #231f20;
+  color: #bf9724;
+  font-family: Garamond, serif;
+  letter-spacing: 3px;
+  text-align: center;
+  background-image: url('https://cdn.glitch.global/af5ef899-75df-45df-8858-9e27757b286d/GraphicUnderlayVB.svg?v=1725283321217');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-opacity: 0.3;
+}
+
+img{
+  height: 450px;
+  width: 450px;
 }
