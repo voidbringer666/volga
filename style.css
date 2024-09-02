@@ -1,5 +1,19 @@
+body{
+  background-image: linear-gradient(red, black);
+  height: 100vh;
+}
+
+main{
+  display
+}
+
 div{
   border: 1px solid red;
+}
+
+img{
+  height: 60px;
+  width: 60px;
 }
 
 .img{
