@@ -1,8 +1,8 @@
 body{
-  background-image: linear-gradient(red, black);
+  background-color: white;
   height: 100vh;
   font-family: sans-serif;
-  color: white;
+  color: black;
   padding: 50px;
   
 }
@@ -22,13 +22,15 @@ div{
   align-self: center;
   width: 65%;
   margin: 12px;
-  background-color: black;
+  background-color: red;
+  border: 4px solid black;
+  transform: translateX(-8px);
+  transform: translateY(08px);
 }
 
 .btn:hover{
-  border: 1px solid red;
-  background-image: linear-gradient(black, darkRed);
-  
+  transform: translateX(0px);
+  transform: translateY(-0px);
 }
 
 
