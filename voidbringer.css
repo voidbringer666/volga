@@ -12,10 +12,14 @@ body {
    overflow-y: hidden;
 }
 
+.container{
+  margin: auto;
+  margin-top: 10%;
+}
+
 .logo{
   height: 450px;
   width: 450px;
-  margin: auto;
 }
 
 .bg {
