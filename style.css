@@ -15,7 +15,17 @@ body{
   max-width: 450px;
   position: fixed;
   top: 0;
-  right: -450px;
+  right: -0px;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  transition: .3 ease;
+  gap: 16px;
 }
 
 .logo-menu{
