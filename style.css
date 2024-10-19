@@ -7,8 +7,20 @@ body{
   
 }
 /*nav*/
+.offscreen-menu{
+  background-color: red;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  max-width: 450px;
+  position: fixed;
+  top: 0;
+  right: -450px;
+}
 
-
+.logo-menu{
+  height: 50px;
+}
 
 
 /*end of nav*/
