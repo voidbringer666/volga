@@ -16,7 +16,7 @@ body{
   position: fixed;
   top: 0;
   right: -0px;
-  border: 4px solid black;
+  border-left: 4px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
