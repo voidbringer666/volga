@@ -22,10 +22,10 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bolder;
   transition: .3 ease;
-  gap: 16px;
+  gap: 2rem;
 }
 
 .logo-menu{
@@ -121,6 +121,7 @@ h3{
 a{
   text-decoration: none;
   color: white;
+  pointer: cursor;
 }
 
 
