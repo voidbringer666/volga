@@ -1,9 +1,14 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-color: white;
   height: 100vh;
   font-family: sans-serif;
   color: black;
-  padding: 50px;
+  /*padding: 50px;*/
   
 }
 /*nav*/
@@ -39,18 +44,36 @@ nav{
 }
 
 .ham-menu{
-  width: 50px;
+  width: 40px;
   height: 50px; 
   margin-left: auto;
   position: relative;
 }
 
 .ham-menu span{
-  height: 5px;
-  width: 50px;
+  height: 4px;
+  width: 100%;
   background-color: white;
   position: absolute;
-  top
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3 ease;
+}
+
+.ham-menu span:nth-child(1){
+  top: 35%;
+}
+.ham-menu span:nth-child(2){
+  top: 65%;
+}
+
+.ham-menu.active span:nth-child(1){
+  top: 50%;
+  transform: translate()
+}
+.ham-menu.active span:nth-child(2){
+  top: 50%;
 }
 
 .logo-menu{
