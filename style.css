@@ -15,7 +15,7 @@ body{
   max-width: 450px;
   position: fixed;
   top: 0;
-  right: -0px;
+  right: -455px;
   border-left: 4px solid black;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,16 @@ body{
   font-weight: bolder;
   transition: .3 ease;
   gap: 2rem;
+  z-index: 2;
+}
+
+.offscreen-menu.active{
+  right: 0px;
+}
+nav{
+  display: flex;
+  padding: 1 rem;
+  background-color: red;
 }
 
 .logo-menu{
