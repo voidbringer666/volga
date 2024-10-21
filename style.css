@@ -29,7 +29,7 @@ body{
   text-align: center;
   font-size: 2rem;
   font-weight: bolder;
-  transition: right 1.3 ease;
+  transition: right .3s ease;
   gap: 2rem;
   z-index: 1;
 }
@@ -65,11 +65,11 @@ nav{
 
 .ham-menu span:nth-child(1){
   top: 35%;
-  transition: .3 ease;
+  transition: .3s ease;
 }
 .ham-menu span:nth-child(2){
   top: 65%;
-  transition: .3 ease;
+  transition: .3s ease;
 }
 
 .ham-menu.active span:nth-child(1){
