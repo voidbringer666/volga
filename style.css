@@ -29,9 +29,9 @@ body{
   text-align: center;
   font-size: 2rem;
   font-weight: bolder;
-  transition: .3 ease;
+  transition: right 1.3 ease;
   gap: 2rem;
-  z-index: 2;
+  z-index: 1;
 }
 
 .offscreen-menu.active{
@@ -48,6 +48,8 @@ nav{
   height: 50px; 
   margin-left: auto;
   position: relative;
+  z-index: 2;
+  cursor: pointer;
 }
 
 .ham-menu span{
@@ -58,23 +60,27 @@ nav{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: .3 ease;
+  
 }
 
 .ham-menu span:nth-child(1){
   top: 35%;
+  transition: .3 ease;
 }
 .ham-menu span:nth-child(2){
   top: 65%;
+  transition: .3 ease;
 }
 
 .ham-menu.active span:nth-child(1){
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
+  transition: .3 ease;
 }
 .ham-menu.active span:nth-child(2){
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
+  transition: .3 ease;
 }
 
 .logo-menu{
