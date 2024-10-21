@@ -70,10 +70,11 @@ nav{
 
 .ham-menu.active span:nth-child(1){
   top: 50%;
-  transform: translate()
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 .ham-menu.active span:nth-child(2){
   top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .logo-menu{
