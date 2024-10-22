@@ -1,6 +1,10 @@
 html{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body{
@@ -8,6 +12,9 @@ body{
   height: 100vh;
   font-family: sans-serif;
   color: black;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
   /*padding: 50px;*/
   
 }
@@ -115,6 +122,7 @@ nav{
 
 
 /*end of nav*/
+
 /*
 div{
   border: 1px solid red;
@@ -202,9 +210,20 @@ h3{
 a{
   text-decoration: none;
   color: white;
-  pointer: cursor;
+  cursor: pointer;
 }
 
+/* Gallery */
+.ilst{
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.gallery {
+    columns: 300px;
+}
+
+/*footer*/
 
 footer{
   margin-top: 100px;
