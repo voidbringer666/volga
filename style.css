@@ -48,6 +48,7 @@ nav{
   display: flex;
   padding: 1rem;
   background-color: red;
+  border-bottom: 4px solid black;
 }
 
 .ham-menu{
