@@ -274,7 +274,8 @@ a{
 footer{
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding: 20px;
+  gap: 20px;
   background-color: #c1272d;
   margin-bottom: 0;
 }
