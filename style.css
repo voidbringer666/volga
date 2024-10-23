@@ -29,12 +29,12 @@ body{
   font-size: 2rem;
   font-weight: bolder;
   transform: translate(-8px, -8px);
-  filter: drop-shadow(8px 8px);
+  filter: drop-shadow(8px 8px black);
 }
 
 .menu-item:hover{
   transform: translate(0px, -0px);
-  filter: drop-shadow(0px 0px);
+  filter: drop-shadow(0px 0px black);
 }
 
 .offscreen-menu{
@@ -166,6 +166,9 @@ div{
   border: 1px solid #c1272d;
 }*/
 
+
+/*----------- Linktree ------------*/
+
 .btn-container{
   display: grid;
 }
@@ -220,6 +223,10 @@ div{
   transform: rotate(180deg);
   transition-duration: 500ms;
 }
+
+/*----------- Linktree End ------------*/
+
+
 /*
 .img{
   height: 80px;
@@ -259,11 +266,20 @@ a{
 
 .gallery {
     columns: 300px;
+    
 }
 
 /*footer*/
 
 footer{
+  display: flex;
+  flex-direction: column;
   margin-top: 100px;
-  opacity: 0.3;
+  background-color: #c1272d;
+  margin-bottom: 0;
+  padding-bottom: 0;  
+}
+
+footer p{
+  color: white;
 }
