@@ -274,10 +274,9 @@ a{
 footer{
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  padding: 100px;
   background-color: #c1272d;
   margin-bottom: 0;
-  padding-bottom: 0;  
 }
 
 footer p{
