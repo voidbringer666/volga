@@ -171,6 +171,8 @@ div{
 
 .btn-container{
   display: grid;
+  margin: 40px 0 300px 0;
+  gap: 1em;
 }
 
 .btn{
@@ -214,7 +216,7 @@ div{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 8px;
+  padding-top: 24px;
   padding-bottom: 24px;
   transition-duration: 500ms;
 }
