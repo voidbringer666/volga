@@ -299,7 +299,7 @@ footer .btn{
   background-color: white;
   color: black;
 }
-
+/*
 .icons{
   display: flex;
   flex-direction: row;
@@ -308,12 +308,14 @@ footer .btn{
   align-items: center;
   margin-top: 12px;
 }
-
-.social-icons{
-  background-color: grey;
-  height: 120px;
-  width: 120px;
-  border-radius: 60px;
+*/
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 footer p{
