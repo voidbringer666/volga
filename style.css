@@ -216,15 +216,10 @@ div{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 24px;
+  padding-top: 80px;
   padding-bottom: 24px;
-  transition-duration: 500ms;
 }
 
-.home-img:hover{
-  transform: rotate(180deg);
-  transition-duration: 500ms;
-}
 
 /*----------- Linktree End ------------*/
 
