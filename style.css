@@ -298,24 +298,27 @@ footer h1{
 footer .btn{
   background-color: white;
   color: black;
+  width: 44%;
+  /*font-size: 28px;*/
 }
-/*
+
 .icons{
   display: flex;
   flex-direction: row;
   gap: 8vw;
   justify-content: center;
   align-items: center;
-  margin-top: 12px;
 }
-*/
+
 .fa{
   padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  font-size: 40px !important;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  border: 4px solid black;
+  border-radius: 50%;
+  
 }
 
 footer p{
