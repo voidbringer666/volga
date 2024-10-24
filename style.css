@@ -52,11 +52,12 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 2rem;
-  font-weight: bolder;
+  /*font-size: 2rem;*/
+  /*font-weight: bolder;*/
   transition: right .3s ease;
-  gap: 2rem;
+  gap: 1rem;
   z-index: 1;
+  filter: drop-shadow(-8px, -8px)
 }
 
 .offscreen-menu::before {
@@ -299,8 +300,6 @@ footer .btn{
   background-color: white;
   color: black;
   width: 360px;
-  font-size: 32px;
-  padding: -32px !important; 
 }
 
 .icons{
