@@ -280,6 +280,20 @@ footer{
   margin-bottom: 0;
 }
 
+.icons{
+  display: flex;
+  flex-direction: row;
+  gap: 8vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons{
+  background-color: grey;
+  height: 120px;
+  width: 120px;
+}
+
 footer p{
   color: white;
 }
