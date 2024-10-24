@@ -290,16 +290,17 @@ footer h1{
   flex-direction: column;
   justify-content: left;
   right: auto;
-  padding: 0 24px 0 24px;
+  padding: 0 24px 24px 24px;
 }
 
 
 .ftr-contact-btn{
+  display: inline-block;
+  width: auto;
   color: black;
   background-color: white;
   border: 4pt solid black;
   padding: 4px;
-  width: 32%;
   justify-content: center;
   
 }
@@ -310,7 +311,7 @@ footer h1{
   gap: 8vw;
   justify-content: center;
   align-items: center;
-  padding: 12px 0;
+  margin-top: 12px;
 }
 
 .social-icons{
