@@ -94,6 +94,7 @@ body{
   display: flex;
   flex-direction: row;
   gap: 10%;
+  margin-left: -16px;
 }
 
 nav{
@@ -176,11 +177,11 @@ nav{
 
 /*----------- end of nav ------------*/
 
-
+/*
 *{
   border: 1px solid #c1272d;
 }
-
+*/
 
 /*----------- Linktree ------------*/
 
@@ -340,6 +341,10 @@ footer .btn{
 .fa:hover{
   transform: translate(0, 0);
   filter: drop-shadow(0px 0px);
+}
+
+.fa-behance{
+ padding-left: -4px; 
 }
 
 footer p{
