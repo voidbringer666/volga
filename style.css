@@ -365,5 +365,10 @@ footer p{
 
 .brands{
   background-color: cyan;
-  
+  height: 100px;
+}
+
+.projects{
+  background-color: pink;
+  height: 80vh;
 }
