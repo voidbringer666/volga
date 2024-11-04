@@ -353,3 +353,17 @@ footer .btn{
 footer p{
   color: white;
 }
+
+
+/*home*/
+
+.hero{
+  background-color: gray;
+  height: 90vh;
+  
+}
+
+.brands{
+  background-color: cyan;
+  
+}
