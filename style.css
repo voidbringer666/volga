@@ -282,7 +282,6 @@ a{
 
 .gallery {
     columns: 300px;
-    
 }
 
 /*footer*/
@@ -409,5 +408,13 @@ footer p{
 /*brands*/
 .home-item{
   border: solid pink;
-  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.home-gallery{
+  columns: 300px;
+  align-items: center;
 }
