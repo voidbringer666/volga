@@ -356,14 +356,36 @@ footer p{
 
 
 /*home*/
-
+div{
+  border: 1px solid cyan;
+}
 .hero{
   background-color: gray;
   height: 90vh;
-  
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
 }
 
-.brands{
+.hero-txt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  gap: 2px;
+}
+
+.hero-header{
+  margin: 0;
+}
+
+.hero-tagline{
+  margin: 0;
+  margin-left: -2px;
+}
+
+.brands-container{
   background-color: cyan;
   height: 100px;
 }
