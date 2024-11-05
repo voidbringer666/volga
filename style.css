@@ -410,11 +410,16 @@ footer p{
   border: solid pink;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   
   
 }
 
-.home-gallery{
-  columns: 300px;
-  align-items: center;
+.home-gallery .ilst{
+  height: auto;
+  width: 15%;
+  margin: 8px;
+  align-self: top;
+  columns: 100px;
 }
