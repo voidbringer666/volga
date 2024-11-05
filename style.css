@@ -411,15 +411,20 @@ footer p{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  
-  
+  justify-content: center ;
+}
+
+.home-gallery{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center ;
 }
 
 .home-gallery .ilst{
-  height: auto;
-  width: 15%;
+  height: 200px;
+  width: auto;
   margin: 8px;
-  align-self: top;
+  align-items: center;
   columns: 100px;
 }
