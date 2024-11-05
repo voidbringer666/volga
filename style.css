@@ -407,7 +407,7 @@ footer p{
 
 
 /*brands*/
-.projects{
-  background-color: pink;
+.home-item{
+  border: solid pink;
   height: 80vh;
 }
