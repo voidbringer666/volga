@@ -391,12 +391,17 @@ footer p{
 /*brands*/
 .brands-container{
   background-color: cyan;
-  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10%;
+  padding: 0 10%;
 }
 
 .brands{
   border: solid red;
-  height: 160px;
+  height: 120px;
+  width: 120px;
   
 }
 
