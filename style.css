@@ -412,13 +412,16 @@ footer p{
   flex-direction: column;
   align-items: center;
   justify-content: center ;
+  gap: 24px;
 }
 
+/* home gallery */
 .home-gallery{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center ;
+  margin-bottom: 24px;
 }
 
 .home-gallery .ilst{
@@ -428,3 +431,5 @@ footer p{
   align-items: center;
   columns: 100px;
 }
+
+/* home gallery end */
