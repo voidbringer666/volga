@@ -413,7 +413,8 @@ footer p{
   flex-direction: column;
   align-items: center;
   justify-content: center ;
-  gap: 24px;
+  gap: 10%;
+  text-align: center;
 }
 
 /* home gallery */
@@ -431,6 +432,10 @@ footer p{
   margin: 8px;
   align-items: center;
   columns: 100px;
+}
+
+.home-gallery.btn{
+  max-width: 
 }
 
 /* home gallery end */
@@ -464,10 +469,11 @@ input{
   color: white;
   transform: translate(-8px, -8px); 
   cursor: pointer;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 8px 8px black;
 }
 
 #submit:hover{
   transform: translate(0px, 0px);
+   box-shadow: 0px 0px black;
 }
 
