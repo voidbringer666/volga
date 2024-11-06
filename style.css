@@ -446,14 +446,17 @@ footer p{
   flex-direction: row;
   width: 80vw;
   gap: 40px;
-  padding: 0 60px;
   margin: 40px 0 60px 0;
+  justify-items: start;
+  border: solid red;
+  padding: 10px;
+  box-shadow: 0 8px 8px;
 }
 
 .img-case{
   background-color: lightGray;
-  width: 1000px !important;
-  height: 200px;
+  width: 800px;
+  border: solid gray;
   
 }
 
