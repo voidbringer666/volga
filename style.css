@@ -412,6 +412,7 @@ footer p{
   align-items: center;
   justify-content: center ;
   gap: 10%;
+  margin-top: 80px;
   
 }
 
@@ -448,9 +449,14 @@ footer p{
   gap: 40px;
   margin: 40px 0 60px 0;
   justify-items: start;
-  border: solid red;
   padding: 10px;
-  box-shadow: 0 8px 8px;
+  background-color: white;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.case-container:hover{
+  filter: drop-shadow(0 8px 8px lightGray);
 }
 
 .img-case{
@@ -458,6 +464,10 @@ footer p{
   width: 800px;
   border: solid gray;
   
+}
+
+.txt-case{
+  color: black;
 }
 
 /*home case study end */
