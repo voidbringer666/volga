@@ -435,7 +435,7 @@ footer p{
 }
 
 .home-gallery.btn{
-  max-width: 30px;
+  max-width: 30px !important;
 }
 
 /* home gallery end */
