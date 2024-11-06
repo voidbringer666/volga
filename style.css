@@ -451,5 +451,15 @@ input{
 }
 
 #submit{
-  width: 
+  width: 10%;
+  margin-top: 40px;
+  justify-self: right;
+  align-self: flex-end;
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: #c1272d;
+  border: 4px solid black;
+  padding: 12px 0;
+  color: white;
 }
