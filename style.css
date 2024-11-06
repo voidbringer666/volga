@@ -254,7 +254,7 @@ nav{
   margin-right: auto;
   margin-top: 20px;
 }*/
-
+/*
 h1{
   
   text-align: center;
@@ -263,7 +263,7 @@ h1{
 h3{
   text-align: center;
 }
-
+*/
 #caption{
   text-align: center;
 }
@@ -295,6 +295,7 @@ footer{
   margin-bottom: 0;
   color: white;
   border-top: 4px solid black;
+  text-align: center;
 }
 
 footer h1{
@@ -433,3 +434,22 @@ footer p{
 }
 
 /* home gallery end */
+/* contact */
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  padding: 10%; 
+}
+
+input{
+  border: none;
+  border-bottom: 2pt solid black;
+  padding: 2px 1px;
+}
+
+#submit{
+  width: 
+}
