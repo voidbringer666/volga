@@ -463,8 +463,12 @@ footer p{
 
 .img-case{
   background-color: lightGray;
-  width: 300px !important;
+  width: 25vw;
+  height: 15vw;
+  max-width: 300px;
+  max-height: 200px;
   border: solid gray;
+  flex-shrink: 0;
   
 }
 
