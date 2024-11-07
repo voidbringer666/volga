@@ -359,39 +359,32 @@ footer p{
 /*home*/
 
 /*hero start*/
-.hero{
+.hero {
   height: 90vh;
   margin-top: 0;
   display: flex;
-  flex-direction: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   gap: 60px;
-  
-  /*background-image: url("https://cdn.glitch.global/af5ef899-75df-45df-8858-9e27757b286d/Hero.webp?v=1730976121344");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right center;*/
+  padding: 0 80px;
 }
 
-.hero-txt{
+.hero-txt {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-left: 10%;
   gap: 2px;
 }
 
-.hero-img-cont{
-  border: 4pt solid black;
-  border-radius: 50%;
-  background-color: red;
-  height: 250px;
+.hero-img-cont {
+  display: block;
   width: 250px;
-  justify-self: flex-end;
-  
+  height: 250px;
+  border: 4px solid black;
+  border-radius: 50%;
 }
-
 .hero-img{
   
 }
@@ -400,14 +393,12 @@ footer p{
   margin: 0;
   font-size: 4em;
   text-align: left;
-  white-space: nowrap;
 }
 
 .hero-tagline{
   margin: 0;
   font-size: 2em;
   font-weight: 200;
-  white-space: nowrap;
 }
 /*hero end*/
 
