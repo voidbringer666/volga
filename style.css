@@ -405,6 +405,7 @@ footer p{
   justify-content: space-between;
   gap: 10%;
   padding: 0 10%;
+  margin: 40px 0;
 }
 
 .brands{
@@ -472,7 +473,11 @@ footer p{
 }
 
 .img-case{
-  background-image: url('');
+  background-image: url('https://cdn.glitch.global/af5ef899-75df-45df-8858-9e27757b286d/RED.svg?v=1730977741571');
+  background-repeat: no-repeat;
+  background-size: 66%;
+  background-position: center;
+  background-color: #03002D;
   width: 200px !important;
   height: 200px !important;
   flex-shrink: 0;
