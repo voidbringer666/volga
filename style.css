@@ -589,8 +589,14 @@ input{
 
 /*responsive*/
 @media only screen and (max-width: 600px) {
-  .hero {flex-direction: column;
-  gap: 5px;
   
+  .hero {flex-direction: column;
+      gap: 0px;
+      justify-items: space-around;
+    align-content: center;
+    padding-top: 10px;
+  }
+  .hero-img-cont{
+    
   }
 }
