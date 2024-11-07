@@ -113,7 +113,7 @@ nav{
   height: 50px; 
   margin-left: auto;
   position: relative;
-  
+  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -366,10 +366,10 @@ footer p{
   flex-direction: row;
   justify-content: space-between;
   
-  /*background-image: url("https://cdn.glitch.global/af5ef899-75df-45df-8858-9e27757b286d/Hero.webp?v=1730976121344");
+  background-image: url("https://cdn.glitch.global/af5ef899-75df-45df-8858-9e27757b286d/Hero.webp?v=1730976121344");
   background-size: cover;
   background-repeat: no-repeat;
-  */
+  background-position: right center;
 }
 
 .hero-txt{
@@ -381,22 +381,18 @@ footer p{
   gap: 2px;
 }
 
-.hero-img{
-  z-index: -1;
-  margin: 0 auto;
-  justify-self: right;
-}
+
 
 .hero-header{
   margin: 0;
-  font-size: 3.5em;
+  font-size: 4em;
   text-align: left;
   white-space: nowrap;
 }
 
 .hero-tagline{
   margin: 0;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 200;
   white-space: nowrap;
 }
@@ -476,10 +472,9 @@ footer p{
 }
 
 .img-case{
-  background-color: lightGray;
+  background-image: url('');
   width: 200px !important;
   height: 200px !important;
-  border: solid gray;
   flex-shrink: 0;
   display: inline-block;
   
