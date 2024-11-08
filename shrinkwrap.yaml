@@ -1,4 +1,5 @@
 dependencies:
+  dotenv: 16.4.5
   express: 5.0.1
   nodemailer: 6.9.16
 packages:
@@ -127,6 +128,12 @@ packages:
       npm: 1.2.8000 || >= 1.4.16
     resolution:
       integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==
+  /dotenv/16.4.5:
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
   /ee-first/1.1.1:
     dev: false
     resolution:
@@ -607,5 +614,6 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  dotenv: ^16.4.5
   express: ^5.0.1
   nodemailer: ^6.9.16
