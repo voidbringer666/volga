@@ -595,9 +595,7 @@ input{
 }
 
 /* Cases Page */
-div{
-  border: solid cyan;
-}
+
 .case-stack{
   display: flex;
   flex-direction: column;
