@@ -431,10 +431,16 @@ footer p{
 }
 
 .brands{
+  display: flex;
   border: solid red;
   height: 120px;
   width: 120px;
-  
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo{
+  width: 100%;
 }
 
 
@@ -443,7 +449,7 @@ footer p{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center ;
+  justify-content: center;
   gap: 10%;
   margin-top: 80px;
   
