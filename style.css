@@ -566,6 +566,12 @@ input{
   padding: 2px 1px;
 }
 
+#message{
+  border: none;
+  border-bottom: 2pt solid black;
+  padding: 2px 1px;
+}
+
 #submit{
   width: 120px;
   margin-top: 40px;

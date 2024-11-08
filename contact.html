@@ -58,23 +58,28 @@
   
     <main>
     
-      <div class = "container">
-        <h3 class = "contact-txt">
+        
+      
+      <!-- GPT Form -->
+      
+      <form class = "container" action="/send-message" method="POST">
+        <label for="name"><h3>
           Name:
-        </h3 >
-        <input type = "text" placeholder = "Tim Cook">
-        <h3 class = "contact-txt">
+          </h3></label>
+        <input type="text" id="name" name="name" placeholder = "Tim Cook" required>
+
+        <label for="email"><h3>
           Email:
-        </h3>
-        <input type = "text" placeholder = "timc@apple.com">
-        <h3 class = "contact-txt">
-          Your Message:
-        </h3>
-        <input type = "text" placeholder = "Let's work together mate!">
-        
-        <button id = "submit">Send</button>
-        
-      </div>  
+          </h3></label>
+        <input type="email" id="email" name="email" placeholder = "timcook@apple.com" required>
+
+        <label for="message"><h3>
+          Message:
+          </h3></label>
+        <textarea id="message" name="message" placeholder = "Let's work together, mate!" required></textarea>
+
+        <button id="submit" type="submit">Send</button>
+      </form>
       
     </main>
     <footer>
