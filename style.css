@@ -542,9 +542,14 @@ footer p{
 }
 
 .img-hustle{
-  background-color: lightGray;
+  
   height: 200px;
   width: 200px;
+}
+
+.huste-img{
+  width: 190px;
+  align-self: center;
 }
 
 /* home hustles end*/
@@ -636,9 +641,6 @@ input{
     margin: 0;
     height: 240px;
     width: 240px;
-  }
-  .hustle-gallery{
-    flex-direction: column;
   }
   
   .case-container{
