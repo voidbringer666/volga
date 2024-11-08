@@ -542,13 +542,14 @@ footer p{
 }
 
 .img-hustle{
-  
+  display: flex;
+  flex-direction: column;
   height: 200px;
   width: 200px;
 }
 
 .huste-img{
-  width: 190px;
+  width: 100%;
   align-self: center;
 }
 
