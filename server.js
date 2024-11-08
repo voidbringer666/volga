@@ -16,4 +16,5 @@ app.post('/contact', (req, res) => {
   const { name, email, message } = req.body;
   
   //optional: send email using nodemailer, log it to console, 
+  
 })
