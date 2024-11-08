@@ -432,7 +432,6 @@ footer p{
 
 .brands{
   display: flex;
-  border: solid red;
   height: 120px;
   width: 120px;
   align-items: center;
