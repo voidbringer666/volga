@@ -478,7 +478,7 @@ footer p{
 .case-container{
   display: flex;
   flex-direction: row;
-  width: 80vw;
+  width: 70vw;
   gap: 40px;
   margin: 40px 0 60px 0;
   justify-items: start;
@@ -595,13 +595,17 @@ input{
 }
 
 /* Cases Page */
-
+div{
+  border: solid cyan;
+}
 .case-stack{
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  align-content: center;
-  margin: 0 20px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  align-self: center;
+  margin: auto;
 }
 
 
