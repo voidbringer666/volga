@@ -495,7 +495,8 @@ footer p{
 }
 
 .case-container:hover{
-  filter: drop-shadow(0 8px 8px lightGray);
+  outline: 4pt solid black;
+  /*filter: drop-shadow(0 8px 8px lightGray);*/
 }
 
 .img-case{
@@ -542,7 +543,8 @@ footer p{
 }
 
 .hustle-card:hover{
-  filter: drop-shadow(0 8px 8px lightGray);
+  outline: 4pt solid black;
+  /*filter: drop-shadow(0 8px 8px lightGray);*/
 }
 
 .img-hustle{
