@@ -436,10 +436,19 @@ footer p{
   width: 120px;
   align-items: center;
   justify-content: center;
+ 
 }
 
 .brand-logo{
   width: 100%;
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  opacity: .3;
+}
+
+.brand-logo:hover{
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 
