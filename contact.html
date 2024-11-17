@@ -23,8 +23,34 @@
     </script>
     <script type="text/javascript">
         window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const form = this;
+    const messageContainer = document.getElementById('status-message-container');
+
+    // Clear any existing message
+    messageContainer.innerHTML = '';
+
+    // Sending email
+    emailjs
+        .sendForm('contact_service', 'contact_form', form)
+        .then(() => {
+            const successMessage = document.createElement('p');
+            successMessage.textContent = 'Message sent!';
+            successMessage.style.color = 'green'; // Style for success
+            successMessage.style.marginTop = '20px'; // Add space from form
+            messageContainer.appendChild(successMessage);
+        })
+        .catch((error) => {
+            const errorMessage = document.createElement('p');
+            errorMessage.textContent = 'Failed to send message. Please try again.';
+            errorMessage.style.color = 'red'; // Style for error
+            errorMessage.style.marginTop = '20px'; // Add space from form
+            messageContainer.appendChild(errorMessage);
+            console.error('FAILED...', error);
+        });
+});
                 // these IDs from the previous steps
                 emailjs.sendForm('service_vb8qvyh', 'template_e4k0pas', this)
                     .then(() => {
