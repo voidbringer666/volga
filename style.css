@@ -518,11 +518,16 @@ footer p{
   height: 200px !important;
   flex-shrink: 0;
   display: inline-block;
+  overflow: hidden;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
 .img-case{
-  width: 100%;
+  height: 100%;
 }
 
 .txt-case{
