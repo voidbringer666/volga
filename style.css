@@ -419,7 +419,19 @@ footer p{
   font-weight: 200;
 }
 /*hero end*/
+/*about*/
 
+.about{
+  width: 70vw;
+  align-self: center;
+  justify-self: center;
+}
+
+.about-txt{
+  font-size: 
+}
+
+/*about end*/
 /*brands*/
 .brands-container{
   display: flex;
