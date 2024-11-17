@@ -604,6 +604,14 @@ footer p{
   padding: 10%; 
 }
 
+#status-message-container{
+  padding: 0 12%;
+  margin-top: -60px;
+  font-weight: 600;
+  font-size: 32;
+  
+}
+
 input{
   border: none;
   border-bottom: 2pt solid black;
