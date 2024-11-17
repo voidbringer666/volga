@@ -508,17 +508,21 @@ footer p{
   /*filter: drop-shadow(0 8px 8px lightGray);*/
 }
 
-.img-case{
-  background-image: url('https://cdn.glitch.global/af5ef899-75df-45df-8858-9e27757b286d/RED.svg?v=1730977741571');
+.img-case-container{
+  /* background-image: url('https://cdn.glitch.global/af5ef899-75df-45df-8858-9e27757b286d/RED.svg?v=1730977741571');
   background-repeat: no-repeat;
   background-size: 66%;
-  background-position: center;
+  background-position: center; */
   background-color: #03002D;
   width: 200px !important;
   height: 200px !important;
   flex-shrink: 0;
   display: inline-block;
   
+}
+
+.img-case{
+  width: 100%;
 }
 
 .txt-case{
