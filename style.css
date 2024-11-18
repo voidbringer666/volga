@@ -429,6 +429,10 @@ footer p{
 }
 
 .about-txt{
+  width: 70vw;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 20px;
   font-size: 24px;
 }
 
