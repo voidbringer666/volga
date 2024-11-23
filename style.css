@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/potsdam');
+
 html{
   margin: 0;
   padding: 0;
@@ -273,6 +275,10 @@ a{
   text-decoration: none;
   color: white;
   cursor: pointer;
+}
+
+.strong{
+  font-family: 'Potsdam', sans-serif;                                                
 }
 
 /* Gallery */
