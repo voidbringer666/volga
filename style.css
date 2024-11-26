@@ -436,8 +436,16 @@ footer p{
   width: 70vw;
   align-self: center;
   justify-self: center;
-  margin-bottom: 20px;
   font-size: 24px;
+}
+
+.about-btns{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1pt solid;
+  align-items: center;
+  justify-content: center;
 }
 
 /*about end*/
