@@ -430,12 +430,12 @@ footer p{
   align-self: center;
   justify-self: center;
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-txt{
   width: 70vw;
-  align-self: center;
-  justify-self: center;
   font-size: 24px;
 }
 
@@ -443,9 +443,14 @@ footer p{
   display: flex;
   flex-direction: row;
   width: 100%;
-  border: 1pt solid;
   align-items: center;
   justify-content: center;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+.about-btns.btn{
+  width: 32%;
 }
 
 /*about end*/
