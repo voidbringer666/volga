@@ -10,7 +10,7 @@ html{
 body{
   background-color: white;
   height: 100vh;
-  font-family: sans-serif;
+  font-family: Popping, sans-serif;
   color: black;
   overflow-x: hidden;
   width: 100%;
@@ -686,9 +686,10 @@ input{
     padding: 10px;
   }
   
-  .hero {flex-direction: column;
-      gap: 0px;
-      justify-items: space-around;
+  .hero {
+    flex-direction: column;
+    gap: 0px;
+    justify-items: space-around;
     align-content: center;
     padding: 10px 20px;
   }
