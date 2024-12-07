@@ -46,5 +46,4 @@ Volga Karadagoglu
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/volgailgiz92/)
 - Behance: [Behance](https://www.behance.net/volgailgiz)
 - Instagram: [Instagram](https://www.instagram.com/artofvoidbringer/)
-```
 
