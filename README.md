@@ -43,8 +43,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 Volga Karadagoglu
-- LinkedIn: [volgailgiz92](https://www.linkedin.com/in/volgailgiz92/)
-- Behance: [volgailgiz](https://www.behance.net/volgailgiz)
-- Instagram: [artofvoidbringer](https://www.instagram.com/artofvoidbringer/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/volgailgiz92/)
+- Behance: [Behance](https://www.behance.net/volgailgiz)
+- Instagram: [Instagram](https://www.instagram.com/artofvoidbringer/)
 ```
-##
+
