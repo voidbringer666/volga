@@ -513,7 +513,8 @@ footer p{
 }
 
 .home-item .btn{
-  max-width: 40% !important;
+  /*max-width: 40% !important;*/
+  width: 36%;
   text-align: center;
 }
 
@@ -709,13 +710,49 @@ input{
 }
   
   .hero-img-cont{
-    margin: 0;
+    margin: 100px 0 0 0;
+    padding-top: 60px;
     height: 240px;
     width: 240px;
+    max-height: 180px;
+    aspect-ratio: 1 / 1 !important;
+  }
+
+  .about-txt{
+    font-size: 16px;
+  }
+
+  .about-btns{
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .home-item .btn{
+    width: 70% !important;
+    max-width: none;
   }
   
   .case-container{
     flex-direction: column;
     gap: 2px;
+  }
+
+  .home-gallery{
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 20px;
+
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* for smoother scrolling on iOS */
+    cursor: grab;
+  }
+
+  .hustle-gallery{
+    flex-direction: column;
   }
 }
