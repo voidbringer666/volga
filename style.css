@@ -276,7 +276,7 @@ a{
 }
 
 .strong{
-  font-family: 'Potsdam', sans-serif;                                                
+  font-family: "ff-brokenscript-bc-web", sans-serif;                                               
 }
 
 /* Gallery */
@@ -667,6 +667,21 @@ input{
 #submit:hover{
   transform: translate(0px, 0px);
    box-shadow: 0px 0px black;
+}
+
+.contact-mail{
+  padding-left: 10%;
+  color: black;
+}
+
+.contact-mail strong{
+  color: #c1272d;
+  cursor: pointer;
+}
+
+.contact-mail strong:hover{
+  
+  text-decoration: underline;
 }
 
 /* Cases Page */
